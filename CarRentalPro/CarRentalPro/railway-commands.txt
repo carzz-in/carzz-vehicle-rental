@@ -1,0 +1,36 @@
+# Railway Deployment Commands for CARZZ.IN
+
+## Method 1: Railway CLI (Fastest)
+npm install -g @railway/cli
+railway login
+railway init
+railway up
+
+## Method 2: GitHub Integration
+1. Push code to GitHub repository
+2. Visit https://railway.app
+3. Connect GitHub account
+4. Deploy from repository
+5. Select CARZZ.IN project
+
+## Project Ready with:
+- railway.json configuration
+- Procfile for web process
+- Production build scripts
+- Environment variables prepared
+
+## Expected Results:
+- Build time: 3-5 minutes
+- Live URL: yourproject.railway.app
+- Custom domain setup: www.carzz.in
+- SSL certificates automatic
+- Auto-scaling enabled
+
+## After Deployment:
+Your vehicle rental platform will be live with:
+- Car and bike browsing
+- Booking system with time selection
+- Payment processing (UPI, cards, wallets)
+- AI chatbot support
+- PWA installation capability
+- Mobile-optimized interface
